@@ -1,15 +1,15 @@
 package ir.fallahdoust.ignitespring.model;
 
 public class Event {
-    private String name;
+    private String event;
     long timestamp;
 
-    public String getName() {
-        return name;
+    public String getEvent() {
+        return event;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setEvent(String event) {
+        this.event = event;
     }
 
     public long getTimestamp() {

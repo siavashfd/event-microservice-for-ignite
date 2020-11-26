@@ -50,10 +50,10 @@ curl http://localhost:8000/api/events?timestamp=1479250540110
 The response will be as follows:
 
 ```
-[{"id":6,"event":null,"timestamp":1606015875000},
-{"id":5,"event":null,"timestamp":1605344019000},
-{"id":4,"event":null,"timestamp":1535772675000},
-{"id":2,"event":null,"timestamp":1479250540110}]
+[{"id":6,"event":"transfer","timestamp":1606015875000},
+{"id":5,"event":"transfer","timestamp":1605344019000},
+{"id":4,"event":"transfer","timestamp":1535772675000},
+{"id":2,"event":"transfer","timestamp":1479250540110}]
 ```
 
 Get the event with id 1:
@@ -64,7 +64,7 @@ curl http://localhost:8000/api/events/1
 The response will be as follows:
 
 ```
-{"id":1,"event":null,"timestamp":1452599645000}
+{"id":1,"event":"transfer","timestamp":1452599645000}
 ```
 
 

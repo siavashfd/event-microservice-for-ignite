@@ -11,7 +11,7 @@ import java.util.List;
 
 @RepositoryConfig(cacheName = "Event")
 @Repository
-public interface EventRepository extends IgniteRepository<Event, String> {
+public interface EventRepository extends IgniteRepository<Event, Integer> {
 
     public List<Cache.Entry<Integer, Event>> findByTimestampGreaterThanEqualOrderByTimestampDesc(long timestamp);
 

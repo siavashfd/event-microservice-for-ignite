@@ -12,7 +12,7 @@ public class EventDTO {
 
     public EventDTO(int key, Event value) {
         this.id = key;
-        this.event = value.getName();
+        this.event = value.getEvent();
         this.timestamp = value.getTimestamp();
     }
 
