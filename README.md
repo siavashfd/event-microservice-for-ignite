@@ -1,7 +1,6 @@
-# Event Microservice with Apache Ignite
+# Spring Boot Application with high-performance in-memory database
 
-Event Microservice that uses Apache Ignite as a high-performance in-memory database.
-It comes with its native persistence that allows storing and processing data both **in-memory** and on **disk**.
+The Apache Ignite comes with its native persistence that allows storing and processing data both **in-memory** and on **disk**.
 
 ## Start the Apache Ignite Cluster
 
