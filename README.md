@@ -1,5 +1,6 @@
 # Spring Boot Application with high-performance in-memory database
 
+A simple Microservice that uses Apache Ignite as an in-memory data grid.
 The Apache Ignite comes with its native persistence that allows storing and processing data both **in-memory** and on **disk**.
 
 ## Start the Apache Ignite Cluster
